@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: gihan4/k8sredis:9
+          image: gihan4/k8sredis:{{BUILD_NUMBER}}
           ports:
             - containerPort: 5000
 ---
